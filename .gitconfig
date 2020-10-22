@@ -1,0 +1,16 @@
+[user]
+	name = v-yuanhuan
+	email = v-yuanhuan@360.cn
+
+[alias]
+	hist = log --pretty=format:\"%C(auto)%h %ad | %C(auto)%s%d  %Cblue(%an)\" --graph --date=iso
+	lg = log --no-merges --color --stat --graph --date=iso --pretty=format:'%Cred%h%Creset - %Cgreen(%cd)%C(yellow)%d%Cblue %s %C(bold blue)<%an>%Creset' --abbrev-commit
+	 c = log --pretty=format:\"%Cred%h%Creset %ad %C(bold blue)%<(12)%an%Creset | %s%C(yellow)%d%Creset\" --graph --date=iso
+	br = branch
+   #hist = log --pretty=format:\"%Cred%h%Creset %ad |%C(bold blue)[%an]%Creset %s%C(yellow)%d%Creset \" --graph --date=iso -n 30
+     ll = log --pretty=format:\"%Cred%h%Creset %ad | %s%d %C(bold blue)[%an]%Creset\" --graph --date=iso --stat
+   #lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+      d = difftool
+      bl = blame -c --date=format:'%Y-%m-%d %H:%M:%S %a'
+      c = log --pretty=format:\"%Cred%h%Creset %ad %C(bold blue)%<(12)%an%Creset | %cd %C(bold blue)%<(12)%cn%Creset | %s%C(yellow)%d%Creset\" --graph --date=format:'%Y-%m-%d %H:%M:%S %a'
+
